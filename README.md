@@ -5,28 +5,48 @@ We have been tasked with creating visualizations of rideshare data from January,
 
 
 ## Results
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-Using images from the summary DataFrame and multiple-line chart, describe the differences in ride-sharing data among the different city types.
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-
-
 As a high level overview, we found that the total combined average fare for the months January through the end of April for the three different types of cities as follows:
 - Rural cities: $230
 - Suburban cities: $1041
 - Urban cities: $2161
 
+Suburban city fares are about 4.5 times higher than rural, and urban cities are over 9 times higher.
+- Rural: total fares, ~$4300
+- Suburban: ~$19,400
+- Urban: ~$40,000.
 
-Suburban city fares are about 4.5 times higher than rural, and urban cities are over 9 times higher. Our findings are summarized below
+In rural cities we have 125 rides split between 78 drivers, suburban cities, 625 rides between 490 drivers, and in urban cities we have 1,625 rides split between 2,405. In terms of rides per driver we have:
+- Rural: ~1.6 rides per driver
+- Suburban: ~1.3 rides per driver
+- Urban: ~0.7 rides per driver
+
+And lastly for each type of city except urban, drivers make more money on average than the average fare per ride.
+- Rural: average fare per ride is ~$35 while average fare per driver is ~$55.
+- Suburban: average fare per ride is ~$31, versus ~$40,
+- Urban: ~$25, versus ~$17.
+
+This indicates that in urban environments there are more drivers than rides, and the date backs this up. There are about three rides for every two drivers.
+
+
+Our findings are summarized below:
 
 
 ![pyber_summary_df](https://user-images.githubusercontent.com/35434608/178174266-32f83c8a-64d2-4eb4-86b2-5c007dacce86.png)
 
 
-![PyBer_fare_summary](https://user-images.githubusercontent.com/35434608/178174317-da1a7446-efc2-40d5-bb69-4ccdc42bc3d2.png)
+![PyBer_fare_summary](https://user-images.githubusercontent.com/35434608/178191385-23b564cf-d47e-4a4a-8d27-f0aa320a124a.png)
 
 
+## Summary
+It appears as though the urban market is flooded with drivers, while the suburban and rural markets could use some more attention. Referring to the chart below, the larger the bubble, the more drivers in that area.
 
-![Fig7](https://user-images.githubusercontent.com/35434608/178175930-e364651c-c3e4-4a79-b852-d17dce3de2ec.png)
+![Figure_1](https://user-images.githubusercontent.com/35434608/178185652-9acc267f-65a4-4b4e-86af-c31a0992f9c1.png)
+
+Providing an incentive for drivers to work more rural areas would help even out this distribution and provide local communities with wider access to transportation. You could offer a bonus to any driver that completed a certain number of qualifying rides in a certain time frame.
+
+
+Furthermore, the fare in rural areas is on average 10 dollars more than in urban areas. In order to mitigate some of these transportation disparities you could subsidize these rides to bring the cost down for the end user.
+
+One more method to get more drivers in the rural areas is to offer a bonus for new drivers that sign up in rural areas. Offer a bonus for local drivers who sign up to drive in underserved areas.
+
 
